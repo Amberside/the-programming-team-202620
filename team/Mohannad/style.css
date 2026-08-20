@@ -1,0 +1,33 @@
+h1 {
+    color: #2E6BFF;
+        font-family:Arial, Helvetica, sans-serif;
+    
+}
+h2 {
+    color: #0B1B3F;
+    color: #0B1B3F;
+    font-family:Arial, Helvetica, sans-serif
+}
+html {
+    background-color: #F5F7FB;
+}
+body {
+        font-family:Arial, Helvetica, sans-serif
+
+}
+.start {
+    margin: 100px;
+    text-align: left;
+    display: flex;
+}
+.container {
+     max-width: 800px;
+  margin: auto;
+  padding-top: 3em;
+}
+.align {
+    display: flex;
+}
+.col {
+    width: 50%;
+}
