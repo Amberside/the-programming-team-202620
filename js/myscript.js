@@ -55,6 +55,11 @@ let students = [
     firstName: "Amberle",
   },
   {
+    path: "finnley",
+    lastName: "Newnham",
+    firstName: "Finnley",
+  },
+  {
     path: "Mohannad",
     lastName: "Alzubi",
     firstName: "Mohannad",
