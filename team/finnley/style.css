@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Roboto:wght@400;700&family=Rubik+Glitch&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #18392b;
+  background-color: #e8f5e9;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 3em;
+}
+
+h1 {
+  font-family: "Fredoka", sans-serif;
+  color: #1b5e20;
+  text-align: center;
+}
+
+#title {
+  font-family: "Rubik Glitch", cursive;
+}
+
+h2 {
+  font-family: "Fredoka", sans-serif;
+  color: #2e7d32;
+}
+
+p {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.col {
+  width: 50%;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #81c784;
+}
+
+.spinner {
+  width: 120px;
+  height: 120px;
+  margin: 3rem auto;
+  background-color: #2e7d32;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  animation: spin 2s linear infinite;
+}
+
+.spinner:hover {
+  background-color: #f9a825;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bottom {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  background-color: #2e7d32;
+}
+
+a:hover {
+  background-color: #1b5e20;
+}
