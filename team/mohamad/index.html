@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamad</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333333;
+      }
+
+      header {
+        background-color: #333333;
+        color: white;
+        padding: 30px;
+      }
+
+      header p {
+        margin-top: 20px;
+        animation: fadeIn 3s infinite alternate;
+        color: #f7c08a;
+        font-style: italic;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0.5;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      footer {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      h1,
+      h2 {
+        margin: 0;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      span {
+        color: #f7c08a;
+      }
+
+      #skills {
+        background-color: #f4f4f4;
+        padding: 30px;
+        height: 300px;
+      }
+
+      .skill {
+        background-color: #f7c08a;
+        padding: 10px;
+        border: 3px solid #fb923c;
+        border-radius: 10px;
+        opacity: 0.9;
+        flex: 1;
+      }
+
+      .sy-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+
+      .sx-flex {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      #about {
+        padding: 50px;
+        height: 250px;
+      }
+
+      .btn {
+        display: inline-block;
+        background-color: #333333;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 13px 20px;
+        width: 260px;
+
+        &:hover {
+          background-color: #f7c08a;
+          color: #333333;
+        }
+      }
+      .py-5 {
+        padding: 100px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="text-center">
+      <div class="container">
+        <h1>Mohamad Akl</h1>
+        <p>Learning Today. Building Tomorrow</p>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="text-center">
+        <h2><span>About</span> Me</h2>
+        <p>I am currently developing my skills in programming. I enjoy learning how different</p>
+        <p>technologies work together to build useful applications.</p>
+      </section>
+      <section id="skills" class="sy-flex text-center">
+        <h2>My Skills</h2>
+        <div class="container sx-flex">
+          <div class="skill">
+            <h3>HTML</h3>
+            <p>Creating structured and accessible web pages</p>
+          </div>
+          <div class="skill">
+            <h3>CSS</h3>
+            <p>Styling pages and creating responsive layouts</p>
+          </div>
+          <div class="skill">
+            <h3>JavaScript</h3>
+            <p>Creating interactive and dynamic webpages</p>
+          </div>
+          <div class="skill">
+            <h3>C#</h3>
+            <p>Developing applications using object-oriented programming</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="text-center py-5">
+        <a href="../../index.html" class="btn">Back To Home</a>
+      </div>
+    </main>
+  </body>
+</html>
