@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #16324f;
+  color: white;
+}
+
+nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skill-container {
+  display: flex;
+  gap: 20px;
+}
+
+.skill-card {
+  flex: 1;
+  padding: 25px;
+  background-color: #f4f4f4;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-card h3 {
+  margin-bottom: 10px;
+}
+
+.goals ul {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.goals li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #16324f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 700px) {
+  .skill-container {
+    flex-direction: column;
+  }
+}
