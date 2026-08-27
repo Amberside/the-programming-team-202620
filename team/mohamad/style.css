@@ -1,108 +1,105 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  color: #333;
-  line-height: 1.6;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
 }
 
 header {
-  background-color: #16324f;
+  background-color: #333333;
   color: white;
+  padding: 30px;
 }
 
-nav {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header p {
+  margin-top: 20px;
+  animation: fadeIn 3s infinite alternate;
+  color: #f7c08a;
+  font-style: italic;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-}
-
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.hero h1 {
-  font-size: 40px;
-  margin-bottom: 16px;
-}
-
-.hero p {
-  font-size: 20px;
-}
-
-main {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-section {
-  padding: 60px 20px;
-}
-
-section h2 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.about p {
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.skill-container {
-  display: flex;
-  gap: 20px;
-}
-
-.skill-card {
-  flex: 1;
-  padding: 25px;
-  background-color: #f4f4f4;
-  text-align: center;
-  border-radius: 8px;
-  transition: transform 0.3s;
-}
-
-.skill-card:hover {
-  transform: translateY(-5px);
-}
-
-.skill-card h3 {
-  margin-bottom: 10px;
-}
-
-.goals ul {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.goals li {
-  margin-bottom: 10px;
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 footer {
-  background-color: #16324f;
-  color: white;
-  text-align: center;
+  background-color: #333333;
+  color: #ffffff;
   padding: 20px;
+  text-align: center;
+  font-size: 14px;
 }
 
-@media (max-width: 700px) {
-  .skill-container {
-    flex-direction: column;
+h1,
+h2 {
+  margin: 0;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+span {
+  color: #f7c08a;
+}
+
+#skills {
+  background-color: #f4f4f4;
+  padding: 30px;
+  height: 300px;
+}
+
+.skill {
+  background-color: #f7c08a;
+  padding: 10px;
+  border: 3px solid #fb923c;
+  border-radius: 10px;
+  opacity: 0.9;
+  flex: 1;
+}
+
+.sy-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.sx-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#about {
+  padding: 50px;
+  height: 250px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333333;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 13px 20px;
+  width: 260px;
+
+  &:hover {
+    background-color: #f7c08a;
+    color: #333333;
   }
+}
+.py-5 {
+  padding: 100px 0;
 }
