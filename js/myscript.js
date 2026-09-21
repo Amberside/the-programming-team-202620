@@ -64,7 +64,7 @@ let students = [
     lastName: "Zhang",
     firstName: "Joyce",
   },
-    path: "finnley",
+  { path: "finnley",
     lastName: "Newnham",
     firstName: "Finnley",
   },
@@ -72,6 +72,11 @@ let students = [
     path: "Mohannad",
     lastName: "Alzubi",
     firstName: "Mohannad",
+  },
+  {
+    path: "muhammadsalman",
+    lastName: "Khan",
+    firstName: "Muhammad Salman",
   },
 ];
 
