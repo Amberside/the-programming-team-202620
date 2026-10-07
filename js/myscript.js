@@ -60,18 +60,19 @@ let students = [
     firstName: 'Mohamad',
   },
   {
-    path: "JoyceZ",
-    lastName: "Zhang",
-    firstName: "Joyce",
-  },
-    path: "finnley",
-    lastName: "Newnham",
-    firstName: "Finnley",
+    path: 'JoyceZ',
+    lastName: 'Zhang',
+    firstName: 'Joyce',
   },
   {
-    path: "Mohannad",
-    lastName: "Alzubi",
-    firstName: "Mohannad",
+    path: 'finnley',
+    lastName: 'Newnham',
+    firstName: 'Finnley',
+  },
+  {
+    path: 'Mohannad',
+    lastName: 'Alzubi',
+    firstName: 'Mohannad',
   },
 ];
 
