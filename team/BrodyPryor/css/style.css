@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body { 
+  font-family: 'Poppins', Arial, Helvetica, sans-serif; 
+  margin: 0px; 
+  color: #3A405A; 
+  background-color: #cca980; 
+} 
+
+h1 { 
+  color: #0E1428; 
+  font-weight: 550;
+  font-size: 3rem;
+}
+
+h2 {
+    color: #0d051d;
+    font-size: 2rem;
+}
+
+p { 
+  font-size: 1.5rem;
+  line-height: 1.5; 
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.website-navbar { 
+  background-color: #bc631a; 
+} 
+  
+.website-navbar .navbar-brand { 
+  font-weight: 550; 
+  font-size: 1.25rem; 
+} 
+  
+.website-navbar .nav-link { 
+  font-weight: 550; 
+} 
+  
+.website-navbar .nav-link:hover { 
+  color: #fcf9f6; 
+} 
+
+.hero-section {
+    background-color: #e0bc8c;
+    color: #000000;
+    min-height: 400px;
+}
+
+.section-content {
+    display: flex;
+    min-height: 400px;
+    color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-button {
+    background-color: #bc481a;
+    border: none;
+}
+
+.hero-button:hover {
+    background-color: #e97c3e;
+}
+
+.bread-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+.bread-image2 {
+    width: 50px;
+}
