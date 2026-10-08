@@ -1,0 +1,76 @@
+/* full page stuff */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(32, 28, 32);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* header stuff */
+.page-header {
+  padding: 32px 20px;
+  background-color: rgb(78, 32, 78);
+  color: white;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.page-header h1 {
+  margin: 0 0 12px;
+}
+
+.page-header p {
+  margin: 6px 0;
+}
+
+/* table stuff */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  background-color: rgb(78, 32, 78);
+  padding: 32px 20px;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.col {
+  width: 50%;
+}
+
+/* Bottom link stuff */
+.bottom {
+  margin: 1rem auto;
+  text-align: center;
+  width: 50%;
+}
+
+a {
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: blueviolet;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(91, 20, 156);
+}
