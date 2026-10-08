@@ -10,13 +10,15 @@
 <body>
    <main class="container">
 
-   
-   <h1 style="text-align: center;">Mohannad Alzubi</h1>
-   <p style="text-align: center;">The optimistic student</p>
-   <div class="align">
-    <section class="col">
+   <header class="hero">
+    <div class="avatar">MA</div>
+    <h1>Mohannad Alzubi</h1>
+    <p class="tagline">The Optimist</p>
+   </header>
+   <div class="grid">
+    <section class="card">
         <h2>Goals for 2026</h2>
-        <ul>
+        <ul class="goals">
             <li>Learn C# OOP</li>
             <li>SQL</li>
             <li>Github</li>
@@ -28,24 +30,32 @@
     </section>
    
    
-    <section class="col">
+    <section class="card">
         
-        <h2>Sliderz</h2>
-    <img id="slide" src="the-programming-team-202620/images/aa.png" width="500">
-   
+        <h2>Slider</h2>
+        <div class="frame">    
+            <img id="slide" src="the-programming-team-202620/images/aa.png" width="500">
+</div>
+   <div class="dots" id="dots"></div>
+   <p class="meta"><span id="count"></span></p>
 <script>
     const images = ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg", "images/a.png", "images/ab.png", "images/b.png", "images/c.png", "images/d.png", "images/i.png", "images/q.png",
         "images/af.png", "images/ak.png"
     ];
+    const dots = document.getElementById("dots");
+    images.forEach(() => dots.appendChild(document.createElement("span")));
     let i = 0;
+    dots.children[i].classList.add("on");
     setInterval(() => {
-      
+          dots.children[i].classList.remove("on");
         i = (i + 1)% images.length;
+        dots.children[i].classList.add("on");
         document.getElementById("slide").src = images[i];
     }, 500);
     </script>
-    </div>
     </section>
+    </div>
+    
   
 
     </main>
