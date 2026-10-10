@@ -41,4 +41,13 @@ li {
       display: flex;
       gap: 20px; 
     }
-        
+ .jeremy-bio-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-left: 5px solid #2C3527;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.jeremy-bio-card:hover {
+    transform: translateY(-2px);
+}       
