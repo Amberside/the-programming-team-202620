@@ -50,4 +50,12 @@ li {
 
 .jeremy-bio-card:hover {
     transform: translateY(-2px);
-}       
+}   
+.card {
+  background-color: #d3630e;
+  color: #FFD6D1;
+}
+.card-img-custom {
+  height: 220px;         
+  object-fit: cover;   
+  object-position: center; }    
