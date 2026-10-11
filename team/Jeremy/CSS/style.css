@@ -48,10 +48,10 @@ li {
 
 /** Cards **/
 .card {
-    background-color: #363b95;
-    color: #ffffff; 
+    background-color: #2C3527;
+    color: #ffffff;         
+    border: none;
 }
-
 .jeremy-bio-card {
     background: linear-gradient(135deg, #2c80d4 0%, #e9ecef 100%);
     border-radius: 8px;
