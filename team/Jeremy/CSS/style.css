@@ -3,7 +3,7 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(216, 149, 67);
-    color: #212529; /* High-contrast dark neutral for default text */
+    color: #212529; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 li {
-    color: #4a2e18; /* Deep readable brown for standalone lists */
+    color: #4a2e18; 
 }
 
 .flex {
@@ -64,7 +64,7 @@ li {
     color: #ffffff;
     border-color: rgba(255, 255, 255, 0.2); 
 }  border: none;
-
+/* style for bio card */
 .jeremy-bio-card {
     background: linear-gradient(135deg, #FFFFFF 0%, #BAC8B1 100%);
     color: #2C3527;
