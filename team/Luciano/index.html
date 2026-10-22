@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luciano Cervelli</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="profile-bubble">
+    <header class="page-header">
+      <h1>Luciano Cervelli</h1>
+      <p>Aspiring Video Game Developer</p>
+    </header>
+
+    <main class="container">
+      <section class="about-me">
+        <h1>Who am I?</h1>
+
+        <p>
+          I'm a TAFE student developing my skills in web and game development. I'm
+          learning to build games using Unity and C#, and websites using HTML, CSS and
+          JavaScript.
+        </p>
+
+        <p>
+          My goal is to become a video game developer. Through my coursework
+          and projects, I'm practising programming, improving my
+          problem-solving skills and learning how to bring game ideas to life.
+        </p>
+      </section>
+
+      <div class="flex">
+        <section class="col skills-column">
+          <h2>My Skills</h2>
+
+          <ul class="skills-list">
+            <li><strong>C#</strong><span>Programming game behaviour</span></li>
+            <li><strong>Unity</strong><span>Building game scenes</span></li>
+            <li><strong>Game development</strong><span>Gameplay and mechanics</span></li>
+            <li><strong>Krita</strong><span>Digital art and graphics</span></li>
+            <li><strong>HTML5</strong><span>Structuring web pages</span></li>
+            <li><strong>CSS3</strong><span>Styling and page layouts</span></li>
+            <li><strong>JavaScript</strong><span>Adding website interactivity</span></li>
+            <li><strong>GitHub</strong><span>Storing and sharing code</span></li>
+          </ul>
+        </section>
+
+        <section class="col">
+          <h2>My Game Development Skills</h2>
+          <p>Wow what a cool game!</p>
+
+          <button type="button" class="game-photo-button" aria-label="Enlarge game photo"
+            onclick="document.getElementById('game-photo-dialog').showModal()">
+            <img src="Game.png" alt="A picture of my game">
+          </button>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <div class="bottom">
+    <a href="../../index.html">Back to Home</a>
+  </div>
+
+  <!-- Pop-up containing the larger game photo -->
+  <dialog id="game-photo-dialog" class="game-photo-dialog" aria-label="Game photo">
+    <form method="dialog">
+      <button type="submit" autofocus>Close</button>
+    </form>
+
+    <img src="Game.png" alt="An enlarged picture of my game">
+  </dialog>
+</body>
+
+</html>

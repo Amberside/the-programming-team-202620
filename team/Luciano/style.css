@@ -1,0 +1,171 @@
+/* full page stuff */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(32, 28, 32);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* header stuff */
+.page-header {
+  padding: 32px 20px;
+  background-color: rgb(78, 32, 78);
+  color: white;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.page-header h1 {
+  margin: 0 0 12px;
+}
+
+.page-header p {
+  margin: 6px 0;
+}
+
+/* table stuff */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  background-color: rgb(78, 32, 78);
+  padding: 32px 20px;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.col {
+  width: 50%;
+}
+
+/* center bubble */
+body {
+    margin: 0;
+    background-color: rgb(24, 12, 32);
+}
+
+.profile-bubble {
+    width: calc(100% - 32px);
+    max-width: 1040px;
+    margin: 32px auto;
+    background-color: rgb(78, 32, 78);
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.page-header,
+.container {
+    max-width: none;
+    margin: 0;
+}
+
+/* bubble: about me */
+.about-me {
+    background-color: rgb(245, 235, 218);
+    color: rgb(48, 28, 48);
+    padding: 24px 20px;
+}
+
+.about-me h1 {
+    margin: 0 0 12px;
+}
+
+.about-me p {
+    margin: 0;
+}
+
+/* bubble: my skills */
+.skills-column {
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list li {
+  background-color: rgb(67, 73, 67);
+  border: 1px solid rgb(12, 153, 54);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.skills-list span {
+  display: block;
+  margin-top: 6px;
+  color: rgb(235, 220, 238);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* zoom in photo */
+.game-photo-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: zoom-in;
+}
+
+.game-photo-dialog img {
+  width: 100%;
+  height: auto;
+  max-height: 75vh;
+  object-fit: contain;
+}
+
+.game-photo-dialog button {
+  display: block;
+  margin: 0 0 12px auto;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: blueviolet;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Bottom link stuff */
+.bottom {
+  margin: 1rem auto;
+  text-align: center;
+  width: 50%;
+}
+
+a {
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: blueviolet;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(91, 20, 156);
+}
