@@ -1,0 +1,84 @@
+
+/* Base Styles */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(13, 210, 102);
+    color: #212529; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #212529;
+}
+
+li {
+    color: #4a2e18; 
+}
+
+.flex {
+    display: flex;
+}
+/* Image Rows  */
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.image-container img {
+    flex: 1;
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/** List Containers**/
+.list-container {
+    display: flex;
+    gap: 20px;
+}
+
+/** Cards **/
+.card {
+    background-color: #2C3527;
+    color: #ffffff;        
+    border: none;
+}
+
+.card h2, 
+.card h3, 
+.card h4 {
+    color: #ffffff !important;
+}
+
+.card .list-group-item {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.2); 
+}  border: none;
+/* style for bio card */
+.jeremy-bio-card {
+    background: linear-gradient(135deg, #FFFFFF 0%, #BAC8B1 100%);
+    color: #2C3527;
+    border-left: 5px solid #2C3527;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.jeremy-bio-card:hover {
+    transform: translateY(-2px);
+}
+
+.card-img-custom {
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+}
