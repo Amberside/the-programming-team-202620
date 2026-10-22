@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeremy</title>
+  <link rel="stylesheet" href="style.css">
+    <!--Link the style sheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!--Link the style sheet-->  
+  <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+
+  <!--Navbar placeholder-->
+    <span id="navbar-placeholder"></span>
+<!-- Main Container -->
+    <div class="container my-5">
+
+<!-- Image Gallery Section -->
+        <section class="mb-5">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <img src="img/germany-alps-castle-nature-preview.jpg" alt="German alps" class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit: cover;">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/Gothic_Quarter,_Barcelona,_Spain_-_panoramio_(4).jpg" alt="Barcelona old churches" class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit: cover;">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/porto-pt-v3.jpg" alt="Porto's colorful coastline" class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit: cover;">
+                </div>
+            </div>
+        </section>
+
+<!-- About Me Bio Card Section -->
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-8 col-lg-6">
+                <div class="card jeremy-bio-card shadow-sm p-3">
+                    <h3 class="h6 fw-bold text-dark mb-2">&#128075; About Me</h3>
+                    <p class="text-light small mb-0">
+                        Hi, I'm <strong>Jeremy</strong>! When I'm not deep into programming coursework, 
+                        you'll usually find me planning my next travel adventure or heading out into nature for a weekend of camping.
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+</body>
+<!--Bootstrap Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ <!--Navbar Script-->
+    <script> 
+        fetch('Navbar.html')
+            .then(response => response.text()) 
+            .then(html => { 
+                document.getElementById('navbar-placeholder').innerHTML = html;  
+            })
+            .catch(error => console.error('Navbar unable to load!', error));
+    </script>
+</body>
+</html>
