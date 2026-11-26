@@ -1,5 +1,4 @@
 /* style.css - Mathew's Page */
-/* Theme colours: pond green #0b3d2e, lily pad #2e7d32, frog green #7bd35a, cream #f4fbe9 */
 
 body {
   margin: 0;
@@ -16,8 +15,7 @@ body {
 
 #frog {
   font-size: 180px;
-  animation: bob 3s ease-in-out infinite;
-}
+  }
 
 
 .hero h1 {
@@ -39,7 +37,7 @@ main {
 
 /* Sections */
 section {
-  background-color: #2e7d32;
+  background-color: #215924;
   border-radius: 20px;
   padding: 20px 25px;
   margin-bottom: 25px;
