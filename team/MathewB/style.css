@@ -1,0 +1,70 @@
+/* style.css - Mathew's Page */
+/* Theme colours: pond green #0b3d2e, lily pad #2e7d32, frog green #7bd35a, cream #f4fbe9 */
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  background-color: #0b3d2e;
+  color: #f4fbe9;
+}
+
+/* Big frog */
+.hero {
+  text-align: center;
+  padding: 20px 20px 40px;
+}
+
+#frog {
+  font-size: 180px;
+  animation: bob 3s ease-in-out infinite;
+}
+
+
+.hero h1 {
+  font-size: 48px;
+  margin: 10px 0 5px;
+}
+
+.tagline {
+  font-size: 20px;
+  color: #7bd35a;
+  margin: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
+/* Sections */
+section {
+  background-color: #2e7d32;
+  border-radius: 20px;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Game Section */
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.game {
+  flex: 1;
+  min-width: 220px;
+  background-color: #0b3d2e;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.game h3 {
+  margin-top: 0;
+  color: #7bd35a;
+}
